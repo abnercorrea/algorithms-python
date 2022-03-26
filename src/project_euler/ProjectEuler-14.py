@@ -2,6 +2,7 @@ MEMOIZE_CAPACITY = 5000001
 memoized = [0] * MEMOIZE_CAPACITY
 memoized[1] = 1
 
+
 def collatz_sequence_length(n):
     if memoized[n] != 0:
         return memoized[n]
